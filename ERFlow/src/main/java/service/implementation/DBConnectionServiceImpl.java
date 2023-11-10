@@ -37,7 +37,7 @@ import java.util.Vector;
 public class DBConnectionServiceImpl {
     private Vector connections = new Vector(10);
     private String _driver = "com.mysql.cj.jdbc.Driver",
-    _url = "jdbc:mysql://[YOUR_REPOSITORY]?characterEncoding=UTF-8&serverTimezone=Asia/Seoul",
+    _url = "jdbc:mysql://[YOUR_DB_REPOSITORY]?characterEncoding=UTF-8&serverTimezone=Asia/Seoul",
     _user = "[YOUR_USER_ID]",
     _password = "[YOUR_PASSWORD]";
     
