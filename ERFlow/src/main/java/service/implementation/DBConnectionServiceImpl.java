@@ -37,9 +37,9 @@ import java.util.Vector;
 public class DBConnectionServiceImpl {
     private Vector connections = new Vector(10);
     private String _driver = "com.mysql.cj.jdbc.Driver",
-    _url = "jdbc:mysql://hxlab.co.kr:13307/erflow?characterEncoding=UTF-8&serverTimezone=Asia/Seoul",
-    _user = "root",
-    _password = "dita2414";
+    _url = "jdbc:mysql://[YOUR_REPOSITORY]?characterEncoding=UTF-8&serverTimezone=Asia/Seoul",
+    _user = "[YOUR_USER_ID]",
+    _password = "[YOUR_PASSWORD]";
     
     private boolean _traceOn = false;
     private boolean initialized = false;
